@@ -8,5 +8,5 @@ jobs:
     - checkout:
       - run:
           name: The First Step
-          command: |
+          command:
             gradle test
